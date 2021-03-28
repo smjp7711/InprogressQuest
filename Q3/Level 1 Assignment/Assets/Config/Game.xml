@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Game>
+	<Level1 name="Level1">
+    <Screen width="1024" height="768"></Screen>
+    <Devices>
+      <Input create="true">
+        <InputEvent inputEvent="" gameEvent=""></InputEvent>
+      </Input>
+      <AssetLibrary create="true">
+        <Asset name="Player" spritePath="./Assets/Images/ufo1.png"></Asset>
+        <Asset name="Monster" spritePath="./Assets/Images/falcon1.png"></Asset>
+        <Asset name-="Asteroid" spritePath="./Assets/Images/asteroids.png"></Asset>
+      </AssetLibrary>
+    </Devices>
+    <Object type="Player">
+      <Component name="Sprite" asset="Player" sprite="true"></Component>
+      <Component name="Body" x="1.0f" y="0.0f" angle="0.0f"></Component>
+		</Object>
+		<Object type="Monster">
+      <Component name="Sprite" asset="Monster" sprite="true"></Component>
+      <Component name="Body" x="2.0f" y="0.0f" angle="0.0f"></Component>
+		</Object> 
+	</Level1>
+</Game>

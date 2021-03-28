@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Game>
+	<Level1 name="Level1">
+		<Object type="Player">
+			<Body x="1.0f" y="0.0f" angle="0.0f"/>
+		</Object>
+		<Object type="Monster">
+			<Body x="2.0f" y="0.0f" angle="0.0f"/>
+		</Object>
+      
+ <!--AssetLibrary create="true"
+ <Asset name="Ufo" spritePath=" ./Assets/Images/ufo1.png"></Asset>
+ <Asset name="Plane"  spritePath="./Assets/Images/falcon.png"></Asset>
+ <Asset name="Asteroid" spritePath="./Asssets/Images/asteroids.png></Asset>
+ </AssestLibrary-->    
+	</Level1>
+</Game>
